@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Antonio');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Antonio', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sauce');
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sauce', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Telegraf');
+***{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Telegraf', sans-serif;
+
+
+}
+.section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+ position: relative;
+ max-width: 150px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #f5f2e7;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left:60px;
+    text-decoration: none;
+
+}
+.socials {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials img {
+  max-width: 10%;
+  height: auto;
+  margin-left: 10px;
+}
+
+body {
+    background: #f5f2e7;
+    color: #000;
+    padding: 25px;
+    font-family: sans-serif;
+  }
+  .imgBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%; 
+    z-index: 1;
+}
+
+.image {
+    max-width: 100%; 
+    height: auto;
+}
+.imgBoxTwo {
+  position: absolute;
+  top: 80px; 
+  right: -40px; 
+  max-width: 50%; 
+  height: auto;
+  z-index: 3;
+}
+
+
+ul {
+    position: relative;
+    z-index: 2;
+}
+  
+  .textBox {
+    font-family: 'antonio', sans-serif;
+    padding: 20px;
+    border-radius: 230px;
+    text-align: left;
+    margin-top: 150px;
+    font-size: 90px; 
+  }
+  .textBox p{
+    font-size: 40px;
+  }
+  .italics {
+    font-style: italic;
+  }
+
+
+
+  .second-image {
+    position: absolute;
+    top: 80px; 
+    right: 40px; 
+    max-width: 40%; 
+    height: auto; 
+  }
+  .coffee {
+    max-width: 80%; 
+    height: auto;
+    top: 0; 
+    right: 0;
+  }
+
+  #replacementImage img {
+    position: absolute;
+    top: 120px; 
+    right: 140px; 
+    max-width: 35%; 
+    height: auto;
+    z-index: 3;
+  }
+  
+  .social-media-links {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    display: flex;
+  }
+  
+  
+  .social-media-links a {
+    margin-left: 25px; 
+    text-decoration: none;
+  }
+  
+  .social-media-links img {
+    width: 50px;
+    height: auto;
+  }
